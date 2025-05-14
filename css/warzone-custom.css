@@ -1,0 +1,28 @@
+/* Color Scheme */
+:root {
+    --warzone-primary: #2a4a29;
+    --warzone-secondary: #1a1a1a;
+    --warzone-accent: #d4af37;
+    --warzone-danger: #c1272d;
+}
+
+/* Military-themed buttons */
+.btn-warzone {
+    background-color: var(--warzone-primary);
+    border: 1px solid var(--warzone-accent);
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Camouflage backgrounds */
+.camo-bg {
+    background-image: url('warzone-bg.jpg');
+    background-repeat: repeat;
+}
+
+/* Operator cards */
+.operator-card {
+    border: 2px solid var(--warzone-accent);
+    background: rgba(0,0,0,0.7);
+}
